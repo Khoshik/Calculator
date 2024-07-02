@@ -33,9 +33,14 @@
             <td><input class="operator" type="button" value="^" onclick="display('^')" ></td>
         </tr>
         <tr>
+            <td><input class="operand" type="button" value="1" onclick="display('1')" ></td>
+            <td><input class="operand" type="button" value="2" onclick="display('2')" ></td>
+            <td><input class="operand" type="button" value="3" onclick="display('3')" ></td>
+            <td rowspan="2"><input class="operator" type="button" value="=" onclick="equate()" ></td>
+        </tr>
+        <tr>
             <td colspan="2"><input class="operand" type="button" value="0" onclick="display('0')" ></td>
             <td><input class="operand" type="button" value="." onclick="display('.')" ></td>
-            <td><input class="operator" type="button" value="=" onclick="equate()" ></td>
         </tr>
     </table>
     <script src="./index.js"></script>
